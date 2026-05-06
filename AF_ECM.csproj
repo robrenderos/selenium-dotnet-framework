@@ -27,14 +27,16 @@
 
   <ItemGroup>
     <Using Include="NUnit.Framework" />
-
+  </ItemGroup>
+  <ItemGroup>
     <None Update="appsettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
    </None>
-
+   </ItemGroup>
+   <ItemGroup>
     <None Update="allureConfig.json">
-  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-</None>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
