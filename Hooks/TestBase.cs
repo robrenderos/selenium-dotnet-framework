@@ -2,6 +2,10 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using AventStack.ExtentReports;
 using NUnit.Framework.Interfaces;
+using NUnit.Framework;
+using NUnit.Allure.Core;
+
+[AllureNUnit]
 public class TestBase
 {
     protected IWebDriver driver;

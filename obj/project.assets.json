@@ -2,6 +2,26 @@
   "version": 3,
   "targets": {
     "net10.0": {
+      "Allure.Commons/3.5.0.73": {
+        "type": "package",
+        "dependencies": {
+          "MimeTypesMap": "1.0.8",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Allure.Commons.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Allure.Commons.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/netstandard2.0/allureConfig.Template.json": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Allure.Net.Commons/2.15.0": {
         "type": "package",
         "dependencies": {
@@ -1192,6 +1212,23 @@
     }
   },
   "libraries": {
+    "Allure.Commons/3.5.0.73": {
+      "sha512": "cqMlst9Za1TfOsgN2fWzMkdUeOTy07AZHaudOuRVAjTyBmUxDKOKxCwlkxO1Xw91ogsPCdXIJdduUtFFGw+Thw==",
+      "type": "package",
+      "path": "allure.commons/3.5.0.73",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "allure-net.png",
+        "allure.commons.3.5.0.73.nupkg.sha512",
+        "allure.commons.nuspec",
+        "content/allureConfig.Template.json",
+        "contentFiles/any/net45/allureConfig.Template.json",
+        "contentFiles/any/netstandard2.0/allureConfig.Template.json",
+        "lib/net45/Allure.Commons.dll",
+        "lib/netstandard2.0/Allure.Commons.dll"
+      ]
+    },
     "Allure.Net.Commons/2.15.0": {
       "sha512": "CbEuYafbLehdc5ncB2zY84mqvjZMiseFOgm4VNYV61lxQfPc7yj5GIrq2QjYi1yVbYDzELEnmm+miTl8984WDw==",
       "type": "package",
@@ -2903,6 +2940,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Allure.Commons >= 3.5.0.73",
       "Allure.NUnit >= 2.15.0",
       "ExtentReports >= 5.0.4",
       "JunitXml.TestLogger >= 8.0.0",
@@ -2961,6 +2999,10 @@
       "net10.0": {
         "targetAlias": "net10.0",
         "dependencies": {
+          "Allure.Commons": {
+            "target": "Package",
+            "version": "[3.5.0.73, )"
+          },
           "Allure.NUnit": {
             "target": "Package",
             "version": "[2.15.0, )"

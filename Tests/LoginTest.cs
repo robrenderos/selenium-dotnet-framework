@@ -1,6 +1,8 @@
+using Allure.NUnit;
 using NUnit.Framework;
 using OpenQA.Selenium;
 
+[AllureNUnit]
 [TestFixture]
 public class LoginTests : TestBase
 {

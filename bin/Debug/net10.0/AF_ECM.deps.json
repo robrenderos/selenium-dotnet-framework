@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "AF_ECM/1.0.0": {
         "dependencies": {
+          "Allure.Commons": "3.5.0.73",
           "Allure.NUnit": "2.15.0",
           "ExtentReports": "5.0.4",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "10.0.7",
@@ -20,6 +21,18 @@
         },
         "runtime": {
           "AF_ECM.dll": {}
+        }
+      },
+      "Allure.Commons/3.5.0.73": {
+        "dependencies": {
+          "MimeTypesMap": "1.0.9",
+          "Newtonsoft.Json": "13.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Allure.Commons.dll": {
+            "assemblyVersion": "3.5.0.73",
+            "fileVersion": "3.5.0.73"
+          }
         }
       },
       "Allure.Net.Commons/2.15.0": {
@@ -936,6 +949,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Allure.Commons/3.5.0.73": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cqMlst9Za1TfOsgN2fWzMkdUeOTy07AZHaudOuRVAjTyBmUxDKOKxCwlkxO1Xw91ogsPCdXIJdduUtFFGw+Thw==",
+      "path": "allure.commons/3.5.0.73",
+      "hashPath": "allure.commons.3.5.0.73.nupkg.sha512"
     },
     "Allure.Net.Commons/2.15.0": {
       "type": "package",

@@ -217,3 +217,5 @@ C:\Users\rober\Documents\Automation\AF_ECM\obj\Debug\net10.0\refint\AF_ECM.dll
 C:\Users\rober\Documents\Automation\AF_ECM\obj\Debug\net10.0\AF_ECM.pdb
 C:\Users\rober\Documents\Automation\AF_ECM\obj\Debug\net10.0\AF_ECM.genruntimeconfig.cache
 C:\Users\rober\Documents\Automation\AF_ECM\obj\Debug\net10.0\ref\AF_ECM.dll
+C:\Users\rober\Documents\Automation\AF_ECM\bin\Debug\net10.0\Allure.Commons.dll
+C:\Users\rober\Documents\Automation\AF_ECM\obj\Debug\net10.0\AF_ECM.sourcelink.json

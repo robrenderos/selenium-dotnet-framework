@@ -1,6 +1,5 @@
 {
   "allure": {
-    "directory": "allure-results",
-    "links": []
+    "resultsDirectory": "allure-results"
   }
 }

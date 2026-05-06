@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qAdH1JWXLMY=",
+  "dgSpecHash": "wpEyAFrkecA=",
   "success": true,
   "projectFilePath": "C:\\Users\\rober\\Documents\\Automation\\AF_ECM\\AF_ECM.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rober\\.nuget\\packages\\allure.commons\\3.5.0.73\\allure.commons.3.5.0.73.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\allure.net.commons\\2.15.0\\allure.net.commons.2.15.0.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\allure.nunit\\2.15.0\\allure.nunit.2.15.0.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\aspectinjector\\2.8.1\\aspectinjector.2.8.1.nupkg.sha512",
